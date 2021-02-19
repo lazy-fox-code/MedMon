@@ -103,7 +103,7 @@ export default {
         return;
       }
 
-      if(this.current_oxygen_level > 127 || this.current_pulse_rate > 127){
+      if(this.current_oxygen_level > 127 || this.current_pulse_rate > 255){
         return;
       }
 

@@ -44,7 +44,7 @@ export default {
           className: "oxygenlevels"
         },
         {
-          data: [0,99],
+          data: [0,255],
           smooth: true,
           showPoints: true,
           className: "pulserate"
