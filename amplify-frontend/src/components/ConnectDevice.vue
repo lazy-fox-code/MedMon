@@ -32,7 +32,8 @@ export default {
   methods: {
     connect: function () {
       let self = this;
-      let serviceUuid = '49535343-fe7d-4ae5-8fa9-9fafd205e455'
+      let serviceUuid = null; 
+      //let serviceUuid = '49535343-fe7d-4ae5-8fa9-9fafd205e455'
       let options = {
         optionalServices: [serviceUuid],
         // filters: [{
